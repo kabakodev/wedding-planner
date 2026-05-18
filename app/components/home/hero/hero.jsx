@@ -31,7 +31,7 @@ export default function Hero() {
  }
   
   return (
-    <section className="min-h-screen overflow-hidden bg-[#2c2b2b]">
+    <section className="min-h-screen overflow-hidden">
       <div className="flex min-h-screen items-center justify-center">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
@@ -39,7 +39,7 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="relative w-full bg-[#f5f1e8]"
         >
-          <div className="line-art left-[-40px] top-10 h-40 w-40" />
+          <div className="line-art -left-10 top-10 h-40 w-40" />
            <Navbar />
           <div className="mt-10 text-center md:mt-14 px-1 md:px-6">
               <TextType

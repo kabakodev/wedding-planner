@@ -9,8 +9,8 @@ export default function Gallery() {
           <h2 className="mt-5 text-5xl font-semibold">Quelques-unes de nos oeuvres</h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 mt-20">
-          <div className="grid grid-cols-3 gap-2 h-[350px]">
+        <div className="grid lg:grid-cols-2 gap-6 mt-20">
+          <div className="grid grid-cols-3 gap-2 h-[350px] mb-8 lg:mb-0">
             {/**Colonne de gauche */}
             <div className="col-span-2 flex flex-col gap-2">
               <div className="bg-pink-400 flex-1 rounded-4xl overflow-hidden">
