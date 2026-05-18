@@ -6,6 +6,7 @@ import Weddings from "./components/home/wedding/wedding"
 import Testimonial from "./components/home/testimony/testimony"
 import Contact from "./components/home/contact/contact"
 import Gallery from "./components/home/gallery/gallery";
+import Footer from "./components/home/footer/footer";
 export default function Home() {
   return (
     <main className="relative overflow-hidden bg-[#f5f1e8]">
@@ -16,6 +17,7 @@ export default function Home() {
     <Gallery />
     <Testimonial />
     <Contact />
+    <Footer />
     </main>
   );
 }

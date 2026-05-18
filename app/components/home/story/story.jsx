@@ -32,13 +32,11 @@ export default function Story() {
                 alt="about-1"
                 src="/images/about-1.jpg"
                 className="h-full w-full object-cover"
-                quality={100}
-                sizes="(max-width : 768px) 100vw, 50vw"
               />
             </div>
 
             <div className="space-y-5">
-              <div className="overflow-hidden rounded-[220px] h-[220px]">
+              <div className="overflow-hidden rounded-[220px] h-55">
                 <Image
                   width={880}
                   height={1200}
@@ -48,7 +46,7 @@ export default function Story() {
                 />
               </div>
 
-              <div className="overflow-hidden rounded-[220px] h-[220px]">
+              <div className="overflow-hidden rounded-[220px] h-55">
                 <Image
                   width={800}
                   height={1200}

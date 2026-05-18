@@ -18,15 +18,32 @@ body {
   background: var(--ivory);
   color: var(--text);
   overflow-x: hidden;
-  font-family: Georgia, serif;
+  font-family: var(--font-raleway), serif;
 }
 
 .section-padding {
-  @apply px-6 md:px-12 lg:px-24;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-padding {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
 
 .container-custom {
-  @apply mx-auto max-w-7xl;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
 }
 
 .gold-btn {
@@ -79,3 +96,6 @@ body {
     #f3eee5
   );
 }
+.navbar.open{
+    border-radius: none !important;
+  }
